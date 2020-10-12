@@ -1,13 +1,12 @@
 #include <iostream>
-using namespace std;
 
 int sum(int);
 
 int main(){
     int tiv;
-    cout << "Enter an integer: ";
-    cin >> tiv;
-    cout << sum(tiv);
+    std::cout << "Enter an integer: ";
+    std::cin >> tiv;
+    std::cout << sum(tiv);
     return 0;
 }
 
